@@ -1,0 +1,6 @@
+import model sm-ckm
+define p = g u c d s u~ c~ d~ s~
+define l+ = e+ mu+ ta+
+define l- = e- mu- ta-
+generate p p > z{0} z{T}, z > l+ l-
+output ZLZT_4l
