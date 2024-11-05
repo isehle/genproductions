@@ -1,0 +1,5 @@
+set complex_mass_scheme true
+import model sm-ckm
+define p = g u c d s b u~ c~ d~ s~ b~
+generate p p > z{0} z{0}, z > e+ e-, z > mu+ mu-
+output ZLZL_2e2mu_fidReg_test

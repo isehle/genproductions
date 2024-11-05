@@ -1,0 +1,4 @@
+import model sm-ckm
+define p = g u c d s b u~ c~ d~ s~ b~
+generate p p > z{0} z{T}, (z > e+ e-), z > mu+ mu-
+output ZLZT_2e2mu_fidReg

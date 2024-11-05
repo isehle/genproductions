@@ -1,0 +1,6 @@
+import model sm-ckm
+define p = g u c d s u~ c~ d~ s~
+define l+ = e+ mu+ ta+
+define l- = e- mu- ta-
+generate p p > z z, z > l+ l-
+output ZZ_4l_goodCutsDynamicScale

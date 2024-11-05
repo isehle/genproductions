@@ -1,0 +1,5 @@
+import model sm-ckm
+define p = g u c d s b u~ c~ d~ s~ b~
+set complex_mass_scheme
+generate p p > z{T} z{0}, (z > e+ e-), z > mu+ mu-
+output ZTZL_2e2mu_fidReg
