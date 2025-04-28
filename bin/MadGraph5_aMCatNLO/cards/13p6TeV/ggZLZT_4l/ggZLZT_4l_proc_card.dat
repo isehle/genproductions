@@ -1,0 +1,5 @@
+import model SM_Loop_ZPolar
+define l+ = e+ mu+ ta+
+define l- = e- mu- ta-
+generate g g > l+ l- l+ l- QED=4 QCD=2 [noborn = QCD] / a --loop_filter=True
+output ggZLZT_4l -nojpeg
